@@ -33,14 +33,19 @@ const EditUser = () => {
     }
     return (
         <>
-            <form onSubmit={formSubmit}>
-                <label>name</label>
-                <input type="text" name="name" value={user.name} onChange={handleInput} />
-                <label>Username</label>
-                <input type="text" name="username" value={user.username} onChange={handleInput} />
-                <label>Email</label>
-                <input type="text" name="email" value={user.email} onChange={handleInput} />
-                <button>Update</button>
+            <form className='form' onSubmit={formSubmit}>
+                <div className="flex formSpace">
+                    <label className="label">Name</label>
+                    <input className="input" type="text" name="name" value={user.name} onChange={handleInput} />
+                </div>
+                <div className="flex formSpace">
+                    <label className="label">Phone No</label>
+                    <input className="input" type="number" name="phone" value={user.phone} onChange={handleInput} />
+                </div>
+                <div className="flexButton">
+                    <button className="button">Update</button>
+                </div>
+
             </form>
         </>
     )
