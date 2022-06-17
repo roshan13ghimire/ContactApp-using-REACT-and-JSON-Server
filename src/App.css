@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --font: 'Roboto', sans-serif;
+    --crimson: crimson;
+    --white: white;
+    --ncolor :#0FFBB7;
+    --bcolor: #6c63ff;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+
+.flex {
+    display: flex;
+}
+
+.sb {
+    justify-content: space-between;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.wd-30 {
+    width: 30;
+}
+
+.wd-50 {
+    width: 50%;
+}
+
+.wd-60 {
+    width: 60%;
+}
+
+.wd-70 {
+    width: 70%;
+}
+
+.wd-80 {
+    width: 80%;
+}
+
+.wd-90 {
+    width: 90%;
+}
+
+.white {
+    color: var(--white);
+}
+
+.header {
+    height: 10vh;
+    background-color: var(--crimson);
+}
+
+.headerContainer {
+    width: 90%;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+.companyNname {
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.navList {
+    list-style: none;
+}
+
+.navListItem {
+    float: left;
+    margin-top: 30px;
+}
+
+.navListItemLinks {
+    text-decoration: none;
+    padding: 20px;
+    color: var(--white);
+
+}
+
